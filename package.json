@@ -1,0 +1,23 @@
+{
+  "name": "wordpress-scripts-babel-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "format": "wp-scripts format",
+    "lint:js": "wp-scripts lint-js",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "format:js": "wp-scripts format",
+    "start": "wp-scripts start",
+    "lint:style": "wp-scripts lint-style",
+    "lint:pkg-json": "wp-scripts lint-pkg-json ./package.json ./*-esnext/package.json",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^19.2.2"
+  }
+}
